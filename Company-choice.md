@@ -1,29 +1,25 @@
-## 1. Por qué elegí esta empresa
+# TrackFlow — Elección de empresa a automatizar
 
-Elegí una empresa de última milla en España porque trabajo en logística de distribución y vivo a diario sus cuellos de botella: rutas que cambian sobre la marcha, albaranes en papel y cobros en el momento de la entrega. Es un sector con márgenes muy ajustados, donde cada entrega fallida o cada incidencia sin registrar se convierte en coste directo. Además, es una operación con mucho trabajo repetitivo y datos que hoy se pierden (fotos de albaranes, horas reales de entrega, motivos de no entrega), justo lo que la automatización y la IA pueden aprovechar. Y como ya conozco la operativa, puedo proponer un caso realista y no teórico.
+## 1. Por qué elegí TrackFlow
+
+Elegí TrackFlow porque trabajo en logística de distribución y reconozco sus problemas: incidencias de entrega que se gestionan a mano y datos de rendimiento que nadie tiene estructurados. Es una empresa con un mandato claro de automatizar (TrackFlow Tech), lo que da escala a cualquier solución. Sus procesos más costosos son repetitivos y de alto volumen (consultas de clientes, devoluciones, seguimiento de transportistas), que es donde la IA ofrece resultados medibles rápido, lo que permite proponer soluciones realistas y no solo teóricas.
 
 ## 2. Departamentos con problemas interesantes
 
-### Operaciones y reparto
-- La planificación de rutas se rehace cada día y cambia con los pedidos de última hora.
-- Las entregas fallidas y las incidencias se comunican tarde y por canales sueltos (llamadas, mensajes).
-- **Por qué me interesa:** hay una oportunidad clara de avisar de forma proactiva, detectando pronto las rutas que van a retrasarse, en vez de reaccionar cuando el cliente ya ha llamado.
+### Última Milla y Gestión de Transportistas
+- Se trabaja con 8 transportistas (Estafeta, FedEx, MRW, SEUR...) y todo el seguimiento se hace a mano, uno por uno.
+- Los datos de rendimiento de los transportistas no existen en forma estructurada, así que no se puede decidir con datos quién lleva cada envío.
+- **Por qué me interesa:** unificar el seguimiento y detectar entregas en riesgo antes de que fallen tiene un impacto directo en coste y en satisfacción del cliente.
 
-### Administración, cobros y facturación
-- Los repartidores cobran en ruta y después hay que cuadrar a mano efectivo, albaranes y facturas (el arqueo).
-- Los albaranes llegan en papel o en foto, con errores de tecleo y descuadres difíciles de rastrear.
-- **Por qué me interesa:** el trabajo es repetitivo, el volumen es alto y un error cuesta dinero directo. Es el tipo de tarea donde un agente que lee y valida documentos da un retorno medible.
+### Atención al Cliente
+- 1 persona responde consultas muy repetitivas ("¿dónde está mi pedido?") consultando un documento de ERP.
+- **Por qué me interesa:** es el caso clásico para un agente de IA con acceso a datos reales. Libera al equipo para los casos complejos y responde al instante.
 
-## 3. Reto de automatización / AI milestone map que más ganas tengo de construir
 
-**Un agente de IA que cierra el ciclo "entrega → prueba → cobro" sin papel.**
+## 3. Reto que más ganas tengo de construir
 
-Conecta los dos departamentos anteriores y es donde la IA aporta más valor real. Empieza pequeño y se valida rápido, porque el primer hito ya es útil por sí solo. Cada hito reutiliza los datos del anterior y el resultado se mide en horas ahorradas y en euros.
+**Un agente de IA de seguimiento de incidencias de última milla.**
 
-| Hito | Qué se construye | Resultado medible |
-
-| 1. Lectura de albaranes | OCR con IA sobre la foto del albarán: extrae cliente, líneas e importe | Menos tecleo manual y menos errores |
-| 2. Validación automática | Cruza el albarán leído con el pedido y detecta discrepancias (cantidades, importes) | Incidencias detectadas el mismo día |
-| 3. Prueba de entrega digital | Firma o confirmación del cliente, con hash y sello de fecha para trazabilidad | Se acaba el papel y las disputas |
-| 4. Arqueo y cobros automáticos | El agente concilia los cobros del reparto con los albaranes y marca lo pendiente | Cierre de caja en minutos |
-| 5. Aviso proactivo | Modelo que predice entregas en riesgo y avisa al cliente y a operaciones por WhatsApp | Menos entregas fallidas y menos llamadas |
+Detecta mercancia perdidas, entregas fallidas y direcciones incorrectas en los 8 transportistas, y avisa al cliente antes de que pregunte. Me motiva porque conecta dos departamentos (Última Milla y Atención al Cliente) y porque convierte datos dispersos en una decisión accionable.
+| Arqueo y cobros automáticos | El agente concilia los cobros del reparto con los albaranes y marca lo pendiente | Cierre de caja en minutos |
+| Aviso proactivo | Modelo que predice entregas en riesgo y avisa al cliente y a operaciones por WhatsApp | Menos entregas fallidas y menos llamadas |
