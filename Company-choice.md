@@ -22,3 +22,7 @@ Elegí TrackFlow porque trabajo en logística de distribución y reconozco sus p
 **Un agente de IA de seguimiento de incidencias de última milla.**
 
 Detecta paquetes perdidos, entregas fallidas y direcciones incorrectas en los 8 transportistas, y avisa al cliente antes de que pregunte. Me motiva porque conecta dos departamentos (Última Milla y Atención al Cliente) y porque convierte datos dispersos en una decisión accionable.
+
+## Mi idea de Agente de IA
+
+El agente vigila los envíos de los 8 transportistas de TrackFlow y detecta incidencias (paquete parado, entrega fallida, dirección incorrecta) antes de que el cliente pregunte. Para ello necesita el estado de seguimiento de cada transportista, los datos del pedido (cliente, dirección, fecha prometida) y las políticas de cada marca sobre reintentos y compensaciones. Cuando detecta un problema, avisa al consumidor con un mensaje claro y propone una solución, y si el caso es complejo lo pasa a Atención al Cliente con el contexto ya resumido. Además, guarda cada incidencia de forma estructurada, lo que genera por primera vez datos de rendimiento por transportista.
